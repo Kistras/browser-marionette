@@ -1,6 +1,4 @@
 from time import time, sleep
-from os import listdir
-from sys import path
 
 from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
@@ -13,8 +11,10 @@ import config
 
 modules = importer.get_modules()
 
+
+
 #Creating browser
-binary = FirefoxBinary(config)
-browser = Firefox(firefox_binary = binary)
-browser.set_window_size(600, 900)
+# binary = FirefoxBinary(config)
+# browser = Firefox(firefox_binary = binary)
+# browser.set_window_size(600, 900)
 
