@@ -1,0 +1,1 @@
+FirefoxPath = "MFWin64/firefox.exe"
